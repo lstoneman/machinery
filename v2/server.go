@@ -11,15 +11,15 @@ import (
 	"github.com/robfig/cron/v3"
 
 	"github.com/lstoneman/machinery/v2/backends/result"
-	"github.com/lstoneman/machinery2/config"
-	"github.com/lstoneman/machinery2/log"
-	"github.com/lstoneman/machinery2/tasks"
-	"github.com/lstoneman/machinery2/tracing"
-	"github.com/lstoneman/machinery2/utils"
+	"github.com/lstoneman/machinery/v2/config"
+	"github.com/lstoneman/machinery/v2/log"
+	"github.com/lstoneman/machinery/v2/tasks"
+	"github.com/lstoneman/machinery/v2/tracing"
+	"github.com/lstoneman/machinery/v2/utils"
 
-	backendsiface "github.com/lstoneman/machinery2/backends/iface"
-	brokersiface "github.com/lstoneman/machinery2/brokers/iface"
-	lockiface "github.com/lstoneman/machinery2/locks/iface"
+	backendsiface "github.com/lstoneman/machinery/v2/backends/iface"
+	brokersiface "github.com/lstoneman/machinery/v2/brokers/iface"
+	lockiface "github.com/lstoneman/machinery/v2/locks/iface"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

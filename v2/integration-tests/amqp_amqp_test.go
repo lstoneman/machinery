@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	"github.com/lstoneman/machinery/v2"
-	"github.com/lstoneman/machinery2/config"
+	"github.com/lstoneman/machinery/v2/config"
 
-	amqpbackend "github.com/lstoneman/machinery2/backends/amqp"
-	amqpbroker "github.com/lstoneman/machinery2/brokers/amqp"
-	eagerlock "github.com/lstoneman/machinery2/locks/eager"
+	amqpbackend "github.com/lstoneman/machinery/v2/backends/amqp"
+	amqpbroker "github.com/lstoneman/machinery/v2/brokers/amqp"
+	eagerlock "github.com/lstoneman/machinery/v2/locks/eager"
 )
 
 func TestAmqpAmqp(t *testing.T) {

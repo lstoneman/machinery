@@ -5,7 +5,7 @@ import (
 	"time"
 
 	lockiface "github.com/lstoneman/machinery/v2/locks/iface"
-	"github.com/lstoneman/machinery2/utils"
+	"github.com/lstoneman/machinery/v2/utils"
 	"github.com/stretchr/testify/assert"
 )
 

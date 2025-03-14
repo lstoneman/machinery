@@ -8,8 +8,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/lstoneman/machinery/v2/backends/dynamodb"
-	"github.com/lstoneman/machinery2/log"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/log"
+	"github.com/lstoneman/machinery/v2/tasks"
 	"github.com/stretchr/testify/assert"
 
 	awsdynamodb "github.com/aws/aws-sdk-go/service/dynamodb"

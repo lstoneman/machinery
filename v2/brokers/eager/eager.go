@@ -8,8 +8,8 @@ import (
 	"fmt"
 
 	"github.com/lstoneman/machinery/v2/brokers/iface"
-	"github.com/lstoneman/machinery2/common"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/common"
+	"github.com/lstoneman/machinery/v2/tasks"
 )
 
 // Broker represents an "eager" in-memory broker

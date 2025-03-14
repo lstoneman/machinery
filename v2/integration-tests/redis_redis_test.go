@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/lstoneman/machinery/v2"
-	redisbackend "github.com/lstoneman/machinery2/backends/redis"
-	redisbroker "github.com/lstoneman/machinery2/brokers/redis"
-	"github.com/lstoneman/machinery2/config"
-	eagerlock "github.com/lstoneman/machinery2/locks/eager"
+	redisbackend "github.com/lstoneman/machinery/v2/backends/redis"
+	redisbroker "github.com/lstoneman/machinery/v2/brokers/redis"
+	"github.com/lstoneman/machinery/v2/config"
+	eagerlock "github.com/lstoneman/machinery/v2/locks/eager"
 )
 
 func TestRedisRedis_GoRedis(t *testing.T) {

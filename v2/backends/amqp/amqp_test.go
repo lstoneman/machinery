@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/lstoneman/machinery/v2/backends/amqp"
-	"github.com/lstoneman/machinery2/config"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/config"
+	"github.com/lstoneman/machinery/v2/tasks"
 	"github.com/stretchr/testify/assert"
 )
 

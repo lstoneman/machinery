@@ -5,10 +5,10 @@ import (
 	"sync"
 
 	"github.com/lstoneman/machinery/v2/brokers/iface"
-	"github.com/lstoneman/machinery2/config"
-	"github.com/lstoneman/machinery2/log"
-	"github.com/lstoneman/machinery2/retry"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/config"
+	"github.com/lstoneman/machinery/v2/log"
+	"github.com/lstoneman/machinery/v2/retry"
+	"github.com/lstoneman/machinery/v2/tasks"
 )
 
 type registeredTaskNames struct {

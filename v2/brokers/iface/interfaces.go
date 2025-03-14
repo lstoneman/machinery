@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/lstoneman/machinery/v2/config"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/tasks"
 )
 
 // Broker - a common interface for all brokers

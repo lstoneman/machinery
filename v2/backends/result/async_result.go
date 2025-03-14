@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/lstoneman/machinery/v2/backends/iface"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/tasks"
 )
 
 var (

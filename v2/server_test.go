@@ -6,11 +6,11 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/lstoneman/machinery/v2"
-	"github.com/lstoneman/machinery2/config"
+	"github.com/lstoneman/machinery/v2/config"
 
-	backend "github.com/lstoneman/machinery2/backends/eager"
-	broker "github.com/lstoneman/machinery2/brokers/eager"
-	lock "github.com/lstoneman/machinery2/locks/eager"
+	backend "github.com/lstoneman/machinery/v2/backends/eager"
+	broker "github.com/lstoneman/machinery/v2/brokers/eager"
+	lock "github.com/lstoneman/machinery/v2/locks/eager"
 )
 
 func TestRegisterTasks(t *testing.T) {

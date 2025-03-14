@@ -12,10 +12,10 @@ import (
 	"github.com/gomodule/redigo/redis"
 
 	"github.com/lstoneman/machinery/v2/backends/iface"
-	"github.com/lstoneman/machinery2/common"
-	"github.com/lstoneman/machinery2/config"
-	"github.com/lstoneman/machinery2/log"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/common"
+	"github.com/lstoneman/machinery/v2/config"
+	"github.com/lstoneman/machinery/v2/log"
+	"github.com/lstoneman/machinery/v2/tasks"
 )
 
 // Backend represents a Redis result backend

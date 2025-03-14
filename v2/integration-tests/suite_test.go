@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/lstoneman/machinery/v2/backends/result"
-	"github.com/lstoneman/machinery2/config"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/config"
+	"github.com/lstoneman/machinery/v2/tasks"
 
-	brokersiface "github.com/lstoneman/machinery2/brokers/iface"
+	brokersiface "github.com/lstoneman/machinery/v2/brokers/iface"
 )
 
 type ascendingInt64s []int64

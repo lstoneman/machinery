@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/lstoneman/machinery/v2/brokers/iface"
-	"github.com/lstoneman/machinery2/config"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/config"
+	"github.com/lstoneman/machinery/v2/tasks"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

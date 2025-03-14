@@ -9,10 +9,10 @@ import (
 
 	"cloud.google.com/go/pubsub"
 	"github.com/lstoneman/machinery/v2/brokers/iface"
-	"github.com/lstoneman/machinery2/common"
-	"github.com/lstoneman/machinery2/config"
-	"github.com/lstoneman/machinery2/log"
-	"github.com/lstoneman/machinery2/tasks"
+	"github.com/lstoneman/machinery/v2/common"
+	"github.com/lstoneman/machinery/v2/config"
+	"github.com/lstoneman/machinery/v2/log"
+	"github.com/lstoneman/machinery/v2/tasks"
 )
 
 // Broker represents an Google Cloud Pub/Sub broker
